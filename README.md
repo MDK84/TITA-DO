@@ -4,7 +4,7 @@
 
 ### hi thare.
 
-first install [qt5](https;//www.qt.io/download) libery for [python3](https://python.org/downloads) and it will produse a start **TITA-DO.py !**
+first install [qt5](https;//www.qt.io/) libery for [python3](https://python.org/downloads) and it will produse a start **TITA-DO.py !**
 
 pyqt5 install for ***linux*** and ***mac***:
  
