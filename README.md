@@ -18,7 +18,7 @@ then open the `TITA-DO.py` program and Run app.
 
 Created on Sat August 1 17:56:46 2020.
 
-@author: **PARSEH85**
+@author: **Komeil Parseh**
 
 [ahmdparsh129@gmail.com](mailto:ahmdparsh129@gmail.com)
 
