@@ -4,7 +4,7 @@
 """
 Created on Tue Aug 25 21:34:13 2020
 
-@author: parseh
+@author: komeil parseh
 """
 import pickle
 import time
@@ -14,6 +14,7 @@ def write_file(data):
     file_tita = open('TITA.DO', 'wb')
     pickle.dump(data, file_tita)
     file_tita.close()
+    return "write is", data, "in TATA.DO"
 
 def load_file():
     """load data in TITA.DO"""
@@ -44,6 +45,7 @@ while OPERATOR_CASE != "1" and OPERATOR_CASE != "2":
     OPERATOR_CASE = str(input("If you want to continue?  1.Yes    2.No = "))
     if OPERATOR_CASE == "1" or OPERATOR_CASE == "2":
         break
+
 #پاسخ بله
 
 while OPERATOR_CASE == "1":
@@ -78,6 +80,6 @@ if OPERATOR_CASE == "2":
     print(data_base)
     print("  Thanks for using this program  ")
     print("             Goodbye             ")
-    print("author", "==> TITA-DO <==","Komeil Parseh")
+    print("author", "==> TITA-DO <==", "Komeil Parseh")
     #time.sleep(3)
 #تمام شد!
